@@ -1,0 +1,138 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
+
+*{
+  font-family: Roboto;
+}
+.whoo{
+  background-image: url("../assets/svg/wooh\ heros.svg");
+  background-repeat:no-repeat ;
+  background-position-x: 106%;
+}
+.gradient-hero{
+  background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+
+.button-green-color{
+  background-color: #70C217;
+  color: white;
+}
+.button-purple-color{
+ background-color: #7854F7;
+ color: white;
+}
+.nav-colors-text{
+  color: #272D4E;
+}
+
+.color-elipse{
+  fill: #FFBA49;
+}
+
+.shadow-title-heros{
+  text-shadow: #272d4e 0px 2px 3px;;
+}
+.shadow-text-heros{
+  text-shadow:  rgb(156 163 175) 0px 2px 3px;
+}
+.bg-purple{
+  background-repeat:no-repeat ;
+  background-image: url("../assets/svg/wave-purple.svg");
+  background-size: cover;
+}
+.bg-whooo-section-others{
+  background-repeat:no-repeat ;
+  background-position-x: 100%;
+  background-image: url("../assets/img/other-section/whoo-background.png");
+}
+.img-position-section-other{
+  z-index: 1;
+  position: relative;
+  top: -85px;
+  filter: drop-shadow(0px 8px 0.5rem black);
+}
+.big-circle{ 
+  left: 16%;
+  width: 17%;
+  top: -1000px;
+  position: relative;
+}
+.little-circle{
+  
+  width: 65px;
+  top: 210%;
+  position: absolute;
+  left: 6%;
+
+}
+.point{
+  position: absolute;
+  top: 241%;
+  width: 213px;
+  left: 8%;
+
+}
+.big-circle-2{ 
+  left: 75%;
+  width: 15%;
+  top: 258%;
+  position: absolute;
+}
+.little-circle-2{
+    z-index: 1;
+    width: 65px;
+    left: 65%;
+    top: 266%;
+    position: absolute;
+}
+.circle-footer{
+  left: 90%;
+  position: relative;
+  top: -100px;
+  width: 5%;
+}
+.point-2{
+   position: absolute;
+   top: 269%;
+   width: 213px;
+   left: 75%;
+   transform: rotate(90deg)
+
+}
+
+.img-position-section-other-2{
+  position: relative;
+    top: 176px;
+    left: 7%;
+    z-index: 1;
+}
+
+.bg-testimonials{
+  background-image: url("../assets/svg/virgule.svg");
+  background-repeat:no-repeat ;
+  background-position: top;
+}
+.arrow-left{
+  transform: rotate(180deg);
+  fill: black !important;
+}
+.point-testimonials-1{
+  right: 37%; 
+  top: 356%; 
+  transform: rotate( 90deg );
+  position: absolute; 
+}
+.point-testimonials-2{
+    left: 30%;
+    top: 384%;
+    position: absolute;
+    transform: rotate(90deg);
+}
+.bg-purple-dark-footer{
+  background-color: #5F37EF;
+}
+.bg-purple-ligth-footer{
+  background-color: #9A7DFF  ;
+}
+.img-team-footer{
+  object-position: 0px 185px;
+}
